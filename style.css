@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #7E1F86;
+    font-size: 18px;
+    
+}
+header{
+    display: flex;
+    margin-top: 0px;
+    background-color: white;
+    height:60px;
+}
+.main{
+    background-color: #7E1F86;
+}
+.menu{
+    color:#7E1F86;
+    margin-left: 200px;
+}
+.menu:hover{
+    color: rgb(100, 192, 188);
+}
+#avatar{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.aboutme{
+    display: flex;
+    background-color: #7E1F86;
+}
+h3{
+    font-size: 20px;
+    color:#ffc508;
+    margin-left: 60px;
+}
+li{
+    color:white;
+    margin-left: 70px;
+    font-size: 20px;
+}
+p{
+    color:white;
+    margin-left: 70px;
+    font-size: 20px;
+}
+#mainph{
+    width: 550px;
+    height:600px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.question{
+    background-color: #7E1F86;
+}
+#none{
+    display:none;
+}
+#dots{
+    display: inline;
+}
+#none2{
+    display:none;
+}
+#dots2{
+    display: inline;
+}
+.more:hover{
+    color:blue;
+    cursor:pointer;
+}
+.contact{
+    margin-top: 50px;
+}
+#tele{
+    display: inline;
+    color:#ffc508;
+}
+#teleg{
+    color:white;
+    margin-left: 70px;
+    font-size: 20px;
+    display: inline;
+    padding-bottom: 40px;
+}
+#teleg:hover{
+    color: blue;
+}
+.contactus:hover{
+    color:rgb(100, 192, 188);
+}
+#mainph:hover{
+    transform: scale(1.02);
+}
+#firstph:hover{
+    transform: scale(1.02);
+}
+.banner{
+   /* background-image: url(./images/doc.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:contain;*/
+    display: flex;
+    height:560px;
+}
+.consultations{
+    display: flex;
+    flex-direction: column;
+}
+.consultation{
+    border:none;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    color:#7E1F86;
+    border-radius: 5px;
+    width:300px;
+    font-size:18px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+.consultation:hover{
+    transform: scale(1.02);
+    background-color:#f0eff0 ;
+}
+.consultationn{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bulletpoints{
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    width: 100%;
+}
+.rowitem{
+    margin-left: 10px;
+    border-radius: 5px;
+    width:33%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#one{
+    background-image: url(/images/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:150px;
+    background-color: #c7c7c7;
+    color:black;
+    margin-bottom: 10px;
+}
+#two{
+    background-image: url(./images/2.jpg);
+    height:150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #bababa;
+    color: white;
+}
+#three{
+    background-image: url(./images/3.jpg);
+    height:150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ABABAB;
+    color:white;
+    margin-right: 10px;
+}
+#four{
+    background-image: url(./images/WhatsApp\ Image\ 2023-10-08\ at\ 13.37.00_d47ec2f7.jpg);
+    height:150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ABABAB;
+    COLOR:white;
+}
+#five{
+    background-image: url(./images/5.jpg);
+    height:150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #264653;
+    color: white;
+}
+#six{
+    background-image: url(./images/6.jpg);
+    height:150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5f849f;
+    color: white;
+    margin-right: 10px;
+}
+.text{
+    background-color: white;
+    color: black;
+    margin:105px 0px auto;
+}
+#otherbtn{
+    margin-left: 70px;
+}
+li{
+    margin: 10px 0px 10px 70px;
+}
+.imaj{
+    overflow: visible;
+    width:450px;
+    height:430px;
+    border: 3px solid #7E1F86;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-image: url(/images/doctor\ office.jpg);
+}
+#firstph{
+    width: 490px;
+    height:490px;
+    border-radius: 50%;
+    position: relative;
+    top:-64px;
+    left: -22px;
+}
+.banner{
+    background-image: url(./images/office.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #7E1F86;
+    margin-bottom: 20px;
+}
+h2{
+    color:purple;
+    margin-top: 140px;
+    margin-left: 15px;
+}
+i{
+    display: flex;
+}
+#description{
+    color: #7E1F86;
+    font-size: 11px;
+    position: relative;
+    top: -60px;
+    left:30px;
+}
+#product1{
+    color:white;
+    text-decoration: none;
+}
+#product1:hover{
+    color:blue;
+}
